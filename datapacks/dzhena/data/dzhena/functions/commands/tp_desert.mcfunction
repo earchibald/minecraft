@@ -1,0 +1,1 @@
+teleport @p 368 68 1113 facing 368 68 1114
