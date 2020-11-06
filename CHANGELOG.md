@@ -5,6 +5,7 @@ The format is based on [Keep a Changelog][Keep a Changelog] and this project adh
 
 ## [Unreleased]
 ### Added
+- submodule for earchibald/minecraft-tools (forked from air/minecraft-tools.)
 
 ### Changed
 
