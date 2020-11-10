@@ -1,0 +1,1 @@
+function dzhena:init/cardinal_direction_tags

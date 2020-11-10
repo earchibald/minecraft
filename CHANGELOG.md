@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog][Keep a Changelog] and this project adheres to [Semantic Versioning][Semantic Versioning].
 
 ## [Unreleased]
+### Todo
+### Learned:
+- F3-I copies targeted bloock information!
+
 ### Added
 - submodule for earchibald/minecraft-tools (forked from air/minecraft-tools.)
 
