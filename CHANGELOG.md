@@ -10,6 +10,7 @@ The format is based on [Keep a Changelog][Keep a Changelog] and this project adh
 
 ### Added
 - submodule for earchibald/minecraft-tools (forked from air/minecraft-tools.)
+- init/cardinal_direction_tags.mcfunction -- this actually belongs in loop/ or something
 
 ### Changed
 
