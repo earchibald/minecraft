@@ -11,3 +11,4 @@ scoreboard players set @a card_direction 1
 # execute as @a run scoreboard players enable @s east
 
 schedule function dzhena:init/cardinal_direction_tags 10t
+schedule function dzhena:commands/snap_to 40t

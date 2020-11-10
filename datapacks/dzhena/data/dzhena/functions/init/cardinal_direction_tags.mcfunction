@@ -14,10 +14,13 @@ execute as @a[y_rotation=226..-45] run tag @s add east
 
 execute as @a[tag=south] run scoreboard objectives modify card_direction displayname "south"
 execute as @a[tag=south] run scoreboard players set @s card_direction 0
+
 execute as @a[tag=west] run scoreboard objectives modify card_direction displayname "west"
 execute as @a[tag=west] run scoreboard players set @s card_direction 90
+
 execute as @a[tag=north] run scoreboard objectives modify card_direction displayname "north"
 execute as @a[tag=north] run scoreboard players set @s card_direction 180
+
 execute as @a[tag=east] run scoreboard objectives modify card_direction displayname "east"
 execute as @a[tag=east] run scoreboard players set @s card_direction 270
 
