@@ -51,3 +51,5 @@ execute as @a run scoreboard players enable @s geom.rot_y
 say Initializing cardinal direction tags. /trigger geom.snap_on and /trigger geom.snap_off
 say use /trigger geom.verbose and geom.quiet to toggle verbose output
 schedule function geom:init/cardinal_direction_tags 10t
+
+schedule function geom:commands/set_torch_predicate 10t
