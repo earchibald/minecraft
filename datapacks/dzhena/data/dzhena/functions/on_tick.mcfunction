@@ -1,0 +1,1 @@
+execute if entity @a[tag=notATag] run say this should never happen

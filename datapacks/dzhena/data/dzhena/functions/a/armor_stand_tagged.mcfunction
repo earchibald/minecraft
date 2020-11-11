@@ -1,0 +1,1 @@
+execute as @p at @s run summon minecraft:armor_stand ~ ~ ~1 {Tags:["Attracting"]}

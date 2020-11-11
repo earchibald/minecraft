@@ -1,1 +1,15 @@
 #!/usr/bin/env bash
+
+# 0. Set up vars/functions
+
+# 1. log in to realms. Set it up so that env vars can be passed OR helper plugin can be used for auth
+
+# 2. Get information about stuff stored in realms. We want to default to world 1/latest backup.
+#    We can add more flexibility later.
+
+# 3. Download world.tgz backup.
+
+# 4. Unarchive backup to $MINECRAFT_PATH (set up above) and rename to match what we'll see in
+#    the GUI (but add a backup timestamp to the dirname so it is extra clear)
+
+# 5. Back to minecraft & manually upload changed world

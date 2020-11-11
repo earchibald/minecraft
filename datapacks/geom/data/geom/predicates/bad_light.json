@@ -1,0 +1,14 @@
+[
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": 0,
+      "predicate": {
+        "light": {
+          "light": {
+            "min": 0,
+            "max": 7
+          }
+        }
+      }
+    }
+  ]

@@ -1,0 +1,3 @@
+[submodule "util/minecraft-tools"]
+	path = util/minecraft-tools
+	url = git@github.com:earchibald/minecraft-tools.git
