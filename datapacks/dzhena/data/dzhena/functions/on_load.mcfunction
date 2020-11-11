@@ -1,4 +1,4 @@
-say "Dzhena datapack loaded!"
+say Dzhena datapack loaded!
 
 scoreboard objectives add dzhena.cardinal dummy
 execute as @a run scoreboard players enable @s dzhena.cardinal
