@@ -18,6 +18,8 @@
 - https://minecraft.gamepedia.com/Armor_Stand#Entity_data Armor Stands, man.
 - PREDICATES!!!! https://minecraft.gamepedia.com/Predicate
 - Includes list of built-in block and entity tags (#minecraft:trapdoors, #minecraft:) - when making our own remember that the built-in ones can be overridden by the datapack!!
+- legal characters and namespace/name specs: https://minecraft.gamepedia.com/Namespaced_ID#Legal_characters
+
 
 ## Software
 - blockbench
