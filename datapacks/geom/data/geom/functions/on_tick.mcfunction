@@ -3,9 +3,10 @@ execute as @a[scores={geom.snap_to=1},tag=!geom.snap_to] run say @s snap_to is: 
 execute as @a[scores={geom.snap_to=1}] run tag @s add geom.snap_to
 execute as @a[scores={geom.snap_to=1}] run scoreboard players enable @s geom.snap_to
 execute as @a[scores={geom.snap_to=2},tag=geom.snap_to] run say @s snap_to is: OFF
+execute as @a[scores={geom.snap_to=2}] run tag @s remove geom.snap_to
 execute as @a[scores={geom.snap_to=2}] run tag @s remove geom.snapped
 execute as @a[scores={geom.snap_to=2}] run scoreboard players set @s geom.snap_to 0
-execute as @a[scores={geom.snap_to=0},tag=!geom.snap_to] run scoreboard players enable @s geom.snap_to
+execute as @a[scores={geom.snap_to=0}] run scoreboard players enable @s geom.snap_to
 
 # toggle verbose
 execute as @a[scores={geom.verbose=1}] run tag @s add geom.verbose
