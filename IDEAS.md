@@ -1,7 +1,8 @@
 # Ideas to implement
 
-## Baby Steps - take it easy, man
-You always try to eat the dang pie
+## Tuesday
+### Implement a particle effect where I'm facing.
+### Update CHANGELOG.md dangit!
 
 ### What block is the player looking at?
 - Look at rippy's stuff, look for youtube tutorials, look in player info^
