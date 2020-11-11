@@ -24,4 +24,5 @@ execute as @a[tag=autotorch] at @s if predicate geom:bad_light if block ^-1 ^1 ^
 execute as @a[tag=torch_placed] run clear @s minecraft:torch 1
 execute as @a[tag=torch_placed] run tag @s remove torch_placed
 
+# run every second (20ticks/sec)
 schedule function geom:commands/set_torch_predicate 10t
