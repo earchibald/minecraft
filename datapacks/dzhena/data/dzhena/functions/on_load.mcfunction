@@ -1,5 +1,13 @@
 say Dzhena datapack loaded!
 
+scoreboard objectives add dzhena.snap_on trigger
+scoreboard objectives add dzhena.snap_off trigger
+scoreboard players enable @a dzhena.snap_on
+
+scoreboard objectives add dzhena.verbose trigger
+scoreboard objectives add dzhena.quiet trigger
+scoreboard players enable @a dzhena.verbose
+
 scoreboard objectives add dzhena.cardinal dummy
 execute as @a run scoreboard players enable @s dzhena.cardinal
 scoreboard players set @a dzhena.cardinal 1
@@ -36,5 +44,6 @@ execute as @a run scoreboard players enable @s dzhena.rot_x
 scoreboard objectives add dzhena.rot_y dummy
 execute as @a run scoreboard players enable @s dzhena.rot_y
 
-say Initializing cardinal direction tags. Set dzhena.snap_to to enable, dzhena.verbose for ...verbose
+say Initializing cardinal direction tags. /trigger dzhena.snap_on and /trigger dzhena.snap_off
+say use /trigger dzhena.verbose and dzhena.quiet to toggle verbose output
 schedule function dzhena:init/cardinal_direction_tags 10t

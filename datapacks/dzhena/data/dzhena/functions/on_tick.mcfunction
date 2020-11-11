@@ -1,3 +1,18 @@
+execute as @a[scores={dzhena.snap_on=1}] run tag @s add dzhena.snap_to
+execute as @a[scores={dzhena.snap_on=1}] run scoreboard players enable @s dzhena.snap_off
+execute as @a[scores={dzhena.snap_on=1}] run scoreboard players reset @s dzhena.snap_on
+execute as @a[scores={dzhena.snap_off=1}] run tag @s remove dzhena.snap_to
+execute as @a[scores={dzhena.snap_off=1}] run scoreboard players enable @s dzhena.snap_on
+execute as @a[scores={dzhena.snap_off=1}] run scoreboard players reset @s dzhena.snap_off
+
+execute as @a[scores={dzhena.verbose=1}] run tag @s add dzhena.verbose
+execute as @a[scores={dzhena.verbose=1}] run scoreboard players enable @s dzhena.quiet
+execute as @a[scores={dzhena.verbose=1}] run scoreboard players reset @s dzhena.verbose
+execute as @a[scores={dzhena.quiet=1}] run tag @s remove dzhena.verbose
+execute as @a[scores={dzhena.quiet=1}] run scoreboard players enable @s dzhena.verbose
+execute as @a[scores={dzhena.quiet=1}] run scoreboard players reset @s dzhena.quiet
+
+
 # function dzhena:init/cardinal_direction_tags
 # execute if entity @p[tag=dzhena.snap_to,nbt={PortalCooldown:0}] as @p[tag=dzhena.snap_to,nbt={PortalCooldown:0}] at @s run function dzhena:commands/dzhena.snap_to
 # execute if entity @p[tag=dzhena.snap_to,nbt={PortalCooldown:0}] as @s run data modify entity @s PortalCooldown set value {PortalCooldown:300}
