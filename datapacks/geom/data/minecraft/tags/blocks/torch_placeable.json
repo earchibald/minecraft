@@ -1,0 +1,25 @@
+{
+    "values": [
+        "#minecraft:base_stone_nether",
+        "#minecraft:base_stone_overworld",
+        "#minecraft:sand",
+        "minecraft:gravel",
+        "minecraft:dirt",
+        "minecraft:grass_block",
+        "minecraft:grass_path",
+        "minecraft:coarse_dirt",
+        "#minecraft:slabs",
+        "#minecraft:logs",
+        "#minecraft:planks",
+        "minecraft:coal_ore",
+        "minecraft:iron_ore",
+        "#minecraft:gold_ores",
+        "minecraft:redstone_ore",
+        "minecraft:diamond_ore",
+        "minecraft:lapis_ore",
+        "minecraft:infested_stone",
+        "minecraft:infested_cobblestone",
+        "minecraft:bedrock",
+        "#minecraft:stone_bricks"
+    ]
+}

@@ -1,0 +1,10 @@
+[
+    {
+      "condition": "minecraft:reference",
+      "name": "geom:bad_light"
+    },
+    {
+        "condition": "minecraft:reference",
+        "name": "geom:offhand_torch"
+    }
+]
