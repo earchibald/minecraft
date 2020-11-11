@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 ### Added
 - instead of using "bad_light" and "offhand_torch" predicates separately, the "place_torch" predicate encapsulates both of them with the 'reference' predicate.
+- /trigger autotorch is available as a toggle for the autotorch functionality.
 
 ### Changed
 - Autotorch now uses the #geom:torch_placeable block tag to determine placement.
