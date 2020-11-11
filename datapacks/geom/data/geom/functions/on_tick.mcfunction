@@ -9,15 +9,19 @@ execute as @a[scores={geom.snap_to=2}] run scoreboard players set @s geom.snap_t
 execute as @a[scores={geom.snap_to=0}] run scoreboard players enable @s geom.snap_to
 
 # toggle verbose
+execute as @a[scores={geom.verbose=1},tag=!geom.verbose] run say @s verbose is: ON
 execute as @a[scores={geom.verbose=1}] run tag @s add geom.verbose
 execute as @a[scores={geom.verbose=1}] run scoreboard players enable @s geom.verbose
+execute as @a[scores={geom.verbose=2},tag=geom.verbose] run say verbose is: OFF
 execute as @a[scores={geom.verbose=2}] run tag @s remove geom.verbose
 execute as @a[scores={geom.verbose=2}] run scoreboard players set @s geom.verbose 0
 execute as @a[scores={geom.verbose=0},tag=!geom.verbose] run scoreboard players enable @s geom.verbose
 
 # toggle autotorch
+execute as @a[scores={autotorch=1},tag=!autotorch] run say @s autotorch is: ON
 execute as @a[scores={autotorch=1}] run tag @s add autotorch
 execute as @a[scores={autotorch=1}] run scoreboard players enable @s autotorch
+execute as @a[scores={autotorch=2},tag=autotorch] run say @s autotorch is: OFF
 execute as @a[scores={autotorch=2}] run tag @s remove autotorch
 execute as @a[scores={autotorch=2}] run scoreboard players set @s autotorch 0
 execute as @a[scores={autotorch=0},tag=!autotorch] run scoreboard players enable @s autotorch
