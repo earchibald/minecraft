@@ -1,16 +1,14 @@
 say Geometry datapack 'geom' loaded!
 
-scoreboard objectives add geom.snap_on trigger
-scoreboard objectives add geom.snap_off trigger
-scoreboard players enable @a geom.snap_on
-scoreboard players reset @a geom.snap_off
+scoreboard objectives add geom.snap_to trigger
+scoreboard players enable @a geom.snap_to
 tag @a remove geom.snap_to
 
 scoreboard objectives add geom.verbose trigger
-scoreboard objectives add geom.quiet trigger
 scoreboard players enable @a geom.verbose
-scoreboard players reset @a geom.quiet
 
+scoreboard objectives add autotorch trigger
+scoreboard players enable @a autotorch
 
 scoreboard objectives add geom.cardinal dummy
 execute as @a run scoreboard players enable @s geom.cardinal
